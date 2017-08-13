@@ -3,12 +3,12 @@
 
 const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
-module.exports = function(defaults) {
+module.exports = function (defaults) {
   let app = new EmberApp(defaults, {
     autoRun: false,
     storeConfigInMeta: false,
     fingerprint: {
-      customHash: null,
+      enabled: false
     },
     // Add options here
   });
